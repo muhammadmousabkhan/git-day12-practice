@@ -17,5 +17,5 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run Python
-        run: python app.py
+      - name: Run tests
+        run: python -m unittest
